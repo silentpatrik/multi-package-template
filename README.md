@@ -10,21 +10,26 @@ A simple NPM package according to my needs and likings. Contains starter project
 - new php laravel package (composer compatible)
 - scripts to rename php composer packages and vendor.
 - scripts migrate an exiting laravel site to a laravel package
-
+- automatic help display upon installation. The contents of the About section in this file is displayed when `running npm/composer --help` 
 
 ## To do upcoming
-- proper scaffolding structure, its now heycon-bacon-script-party design pattern  
+- proper scaffolding structure and consistent code-api across all project types. Its now heycon-bacon-script-party design pattern  
 - cf-workers boilerplate and page-boilerplate
-- 
+- gh create repo and gh-pages and .env sync to secrets.
+- Python package project scripts
+- php wrappers for python and virtual environments to run python from laravel backend
 - cleanup script, depending on what project is scaffolded the rest should be removed upon running correct scrit
 
 ## Installation
 
+There are unfortanly not a consisten way to create all package types yet.
+
 ### Step 1. 
-- below are a few alternatives for installing be for i settle for name and npm públsh
+Below are a few alternatives for installing be for i settle for name and npm públsh
 ```bash
 git clone --template https://github.com/silentpatrik/npm-package-template.git new-package && cd new-package
 npm run new.js
+```
 
 ```bash
 echo 'enter your package name' | (read NEW_NAME && git clone --template [ <this repo url >](https://github.com/silentpatrik/npm-package-template.git $NEW_NAME && (cd $NEW_NAME && npm run rename $NEW_NAME  ) 
@@ -47,3 +52,5 @@ The above rename command will rename class to `NewNameInAlnumDash`.
 ### Step 3 (optional)
 the script pushinto can push the code and change remote if the remote branch does not exist or if the branch is empty, like a new repo.
 
+# About
+To initialize a new project:
