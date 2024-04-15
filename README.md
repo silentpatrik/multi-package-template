@@ -1,6 +1,22 @@
 # MyNpmPackage
 
-A simple NPM package according to my needs and likings. Contains starter projects for npm package, neutrino, vite config, and umd build+watch scripts. It will very likley come cf-workers and other stuff.
+A simple NPM package according to my needs and likings. Contains starter projects  or scripts for 
+- new npm package project 
+- neutrino project
+- vite config with tailwindcss
+- umd
+- build+watch scripts for all npm project types.
+- new php composer package (no laravel)
+- new php laravel package (composer compatible)
+- scripts to rename php composer packages and vendor.
+- scripts migrate an exiting laravel site to a laravel package
+
+
+## To do upcoming
+- proper scaffolding structure, its now heycon-bacon-script-party design pattern  
+- cf-workers boilerplate and page-boilerplate
+- 
+- cleanup script, depending on what project is scaffolded the rest should be removed upon running correct scrit
 
 ## Installation
 
