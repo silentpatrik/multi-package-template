@@ -7,7 +7,9 @@
     "build": "rollup -c",
     "rename": "node ./rename.js",
     "pushinto": "node ./pushinto.js",
-    "new": "node ./new.js"
+    "new": "node ./new.js",
+    "help": "node ./help.js",
+    "postinstall": "node ./help.js"
   },
   "bin": {
     "rename": "./rename.js",
