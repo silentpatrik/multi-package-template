@@ -1,0 +1,54 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+[Semicolon]",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "alt+[Backquote]",
+        "command": "terminal.focus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "editorAreaVisible"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.explorer.fileView.focus",
+        "when": "editorAreaVisible"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+        "key": "ctrl+escape",
+        "command": "css-switch.move-reset",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "-css-switch.move-reset",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "css-switch.move-down",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-css-switch.move-down",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f4",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    }
+]
