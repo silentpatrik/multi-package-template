@@ -5,9 +5,18 @@
         "christian-kohler.npm-intellisense",
         "ecmel.vscode-html-css",
         "github.copilot-chat",
-        "github.copilot",
         "dbaeumer.vscode-eslint",
         "formulahendry.auto-rename-tag",
-        "formulahendry.auto-close-tag"
+        "formulahendry.auto-close-tag",
+        "sirmspencer.vscode-autohide",
+        "isudox.vscode-jetbrains-keybindings",
+        "sidthesloth.svg-snippets",
+        "vdanchenkov.tailwind-class-sorter",
+        "timonwong.shellcheck",
+        "foxundermoon.shell-format",
+        "mindaro-dev.file-downloader",
+        "naumovs.color-highlight",
+        "ms-vscode.remote-server",
+        "kevinrose.vsc-python-indent"
     ]
 }
